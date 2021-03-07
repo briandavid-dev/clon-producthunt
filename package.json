@@ -5,11 +5,27 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "babel-plugin-emotion": "^11.0.0",
+    "date-fns": "^2.17.0",
+    "firebase": "^7.6.1",
+    "firebase-admin": "^8.9.0",
     "next": "10.0.7",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-firebase-file-uploader": "^2.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16"
+  },
+  "soluciones": {
+    "error-de-firebase al subir imagenes": "https://es.stackoverflow.com/questions/415393/error-unhandled-rejection-typeerror-cannot-read-property-name-of-null"
   }
 }

@@ -3,9 +3,10 @@ import DetallesProducto from '../components/layout/DetallesProducto';
 import Layout from '../components/layout/Layout';
 import useProductos from '../hooks/useProductos'; 
 
-export default function Home() {
 
-  const { productos } = useProductos('creado');
+export default function Populares() {
+
+  const { productos } = useProductos('votos');
 
   return (
     <div>
